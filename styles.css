@@ -1,10 +1,21 @@
 body {
-    background-color: aqua;
+    background-color: rgb(49, 45, 45);
 }
 
 .Navbar {
+    background-color: #7bff47;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:blue;
+    padding: 15px 50px;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+h1 {
+    color:azure;
 }
